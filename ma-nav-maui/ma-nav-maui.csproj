@@ -35,9 +35,6 @@
 	</PropertyGroup>
 	<ItemGroup>
 		<!-- App Icon -->
-		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#512BD4" />
-
-		<!-- Splash Screen -->
 		<MauiImage Include="Resources\Images\*" />
 		<MauiFont Include="Resources\Fonts\*" />
 
@@ -53,11 +50,16 @@
 	  <None Remove="Resources\Splash\" />
 	  <None Remove="Resources\Splash\logowhite.svg" />
 	  <None Remove="Resources\Splash\logo.svg" />
+	  <None Remove="Resources\AppIcon\logowhite.svg" />
+	  <None Remove="Resources\AppIcon\appicon.svg" />
 	</ItemGroup>
 	<ItemGroup>
 	  <Folder Include="Resources\Splash\" />
 	</ItemGroup>
 	<ItemGroup>
 	  <MauiSplashScreen Include="Resources\Splash\logo.svg" BaseSize="128, 128" Color="White" />
+	</ItemGroup>
+	<ItemGroup>
+	  <MauiIcon Include="Resources\AppIcon\appicon.svg" />
 	</ItemGroup>
 </Project>
