@@ -52,6 +52,7 @@
 	  <None Remove="Resources\Splash\logo.svg" />
 	  <None Remove="Resources\AppIcon\logowhite.svg" />
 	  <None Remove="Resources\AppIcon\appicon.svg" />
+	  <None Remove="Resources\AppIcon\appiconfg.svg" />
 	</ItemGroup>
 	<ItemGroup>
 	  <Folder Include="Resources\Splash\" />
@@ -61,5 +62,8 @@
 	</ItemGroup>
 	<ItemGroup>
 	  <MauiIcon Include="Resources\AppIcon\appicon.svg" />
+	</ItemGroup>
+	<ItemGroup>
+	  <BundleResource Include="Resources\AppIcon\appiconfg.svg" />
 	</ItemGroup>
 </Project>
